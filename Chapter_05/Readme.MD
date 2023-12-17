@@ -45,7 +45,7 @@ vagrant up
 vagrant ssh ubuntu1
 
 
-Docker Installation Commands on Ubuntu 22.04 >>>
+Ubuntu Commands & Docker Installation Commands on Ubuntu 22.04 >>>
 
 
 Docker Test Commands >>>>
