@@ -16,6 +16,8 @@ Key components and concepts of Docker include:
 
 5. **Docker Hub:** Docker Hub is a cloud-based registry service where you can share and distribute Docker images. It serves as a central repository for storing and managing Docker images, making it easy for developers to share and collaborate on containerized applications.
 
+https://hub.docker.com/
+
 6. **Docker Compose:** Docker Compose is a tool for defining and running multi-container Docker applications. It uses a YAML file to configure application services, networks, and volumes, enabling developers to define complex application stacks and deploy them easily.
 
 7. **Orchestration:** Docker provides orchestration features for managing and scaling containerized applications. Docker Swarm and Kubernetes are popular tools for orchestrating containers in a cluster, ensuring high availability, load balancing, and efficient resource utilization.
