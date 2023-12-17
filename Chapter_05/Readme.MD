@@ -35,11 +35,18 @@ Why? Because Easy to Install Multiple Servers and Docker + Docker Swarm and Clus
 7. Test and Verify >> Docker Commands
 8. Destroy Ubuntu VM >> If You Do Not Need Anymore!
 
+
 Vagrant Commands:
+
 vagrant global-status
+
 vagrant up
 
+vagrant ssh ubuntu1
+
+
 Docker Installation Commands on Ubuntu 22.04:
+
 
 Docker Test Commands:
 
