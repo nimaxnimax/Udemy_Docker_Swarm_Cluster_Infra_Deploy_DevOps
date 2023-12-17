@@ -49,7 +49,33 @@ vagrant ssh ubuntu1
 ****************************************
 Ubuntu Commands & Docker Installation Commands on Ubuntu 22.04 >>>
 
+ip addr
+
+sudo apt update -y
+
+sudo apt install apt-transport-https ca-certificates curl software-properties-common lsb-release -y
+
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/docker-archive-keyring.gpg
+
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+
+sudo apt update
+
+apt-cache policy docker-ce
+
+sudo apt install docker-ce -y
+
+systemctl status docker
+
+sudo usermod -aG docker ${USER}
+
+newgrp docker
+
 
 ****************************************
 Docker Test Commands >>>>
+
+docker ps -a
+
+docker run hello-world
 
