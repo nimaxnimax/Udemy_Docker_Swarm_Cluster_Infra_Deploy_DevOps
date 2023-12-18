@@ -42,6 +42,8 @@ Vagrant Commands >>>>
 
 vagrant global-status
 
+vagrant init
+
 vagrant up
 
 vagrant ssh ubuntu1
