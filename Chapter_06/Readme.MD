@@ -33,6 +33,7 @@ Why? Because Easy to Install Multiple Servers and Docker + Docker Swarm and Clus
 6. Install Docker on Ubuntu 22.04 VM
 7. Test and Verify >> Docker Commands
 8. Destroy Ubuntu VM >> If You Do Not Need Anymore!
+9. Check Other OS Images >> Vagrant Cloud >> https://app.vagrantup.com/boxes/search
 
 
 ****************************************
