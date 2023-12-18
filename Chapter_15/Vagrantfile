@@ -1,0 +1,29 @@
+Vagrant.configure("2") do |config|
+    config.vm.define "ubuntu1" do |node|
+      node.vm.box = "generic/ubuntu2204"
+      node.vm.hostname = "ubuntu1"
+      config.vm.network "public_network"
+      config.vm.provider "virtualbox" do |vb|
+        vb.gui = false
+        vb.memory = "1024"
+      end
+    end
+    config.vm.define "ubuntu2" do |node|
+      node.vm.box = "generic/ubuntu2204"
+      node.vm.hostname = "ubuntu2"
+      config.vm.network "public_network"
+      config.vm.provider "virtualbox" do |vb|
+        vb.gui = false
+        vb.memory = "1024"
+      end
+    end
+    config.vm.define "ubuntu3" do |node|
+      node.vm.box = "generic/ubuntu2204"
+      node.vm.hostname = "ubuntu3"
+      config.vm.network "public_network"
+      config.vm.provider "virtualbox" do |vb|
+        vb.gui = false
+        vb.memory = "1024"
+      end
+    end
+  end
