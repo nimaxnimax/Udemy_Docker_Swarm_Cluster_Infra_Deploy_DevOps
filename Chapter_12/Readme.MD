@@ -1,4 +1,4 @@
-How to Run Commands in Running Container in Docker?
+How to Execute Commands in Running Container in Docker?
 
 
 Here's an example to execute commands in a container:
