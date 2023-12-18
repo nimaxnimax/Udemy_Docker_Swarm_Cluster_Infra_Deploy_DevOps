@@ -50,7 +50,7 @@ To build a Dockerfile that runs a simple HTML "Hello, World!" application and ex
 
    ```bash
    docker build -t hello-html .
-   docker run -p 80:80 hello-html
+   docker run -d -p 80:80 hello-html
    ```
 
 4. **Access HTML Application:**
