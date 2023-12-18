@@ -64,4 +64,3 @@ docker container prune -f
 
 Be cautious when using the `-f` flag, as it removes all containers without confirmation.
 
-These commands cover basic container management tasks in Docker. Feel free to adapt them to your specific use case and requirements.
