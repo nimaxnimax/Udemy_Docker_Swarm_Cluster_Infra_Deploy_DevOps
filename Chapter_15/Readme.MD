@@ -20,11 +20,11 @@ Step 1 >> Configure 3 Ubuntu VMs
 ********************
 Step 2 >> Prepare Your Nodes
 
-# In my set up, I have one manager node and two worker nodes. On each host, configure hosts file to include all the other nodes.
+** In my set up, I have one manager node and two worker nodes. On each host, configure hosts file to include all the other nodes.
 
 sudo vim /etc/hosts
 
-# Add the following content to the file (example - replace with your ubuntu vm IP addresses)
+** Add the following content to the file (example - replace with your ubuntu vm IP addresses)
 
 192.168.1.10	manager
 
