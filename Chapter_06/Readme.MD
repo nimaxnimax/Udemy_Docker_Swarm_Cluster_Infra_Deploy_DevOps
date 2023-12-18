@@ -59,6 +59,8 @@ sudo apt update && sudo apt install vagrant -y
 ****************************************
 Vagrant Commands >>>>
 
+vagrant help
+
 vagrant global-status
 
 vagrant init

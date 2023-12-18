@@ -40,6 +40,8 @@ Why? Because Easy to Install Multiple Servers and Docker + Docker Swarm and Clus
 ****************************************
 Vagrant Commands >>>>
 
+vagrant help
+
 vagrant global-status
 
 vagrant init
